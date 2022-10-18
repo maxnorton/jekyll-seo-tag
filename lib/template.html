@@ -122,7 +122,7 @@
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
 {% endif %}
 
-{% if seo_tag.json_ld? %}
+{% if seo_tag.show_json_ld? %}
   <script type="application/ld+json">
     {{ seo_tag.json_ld | jsonify }}
   </script>

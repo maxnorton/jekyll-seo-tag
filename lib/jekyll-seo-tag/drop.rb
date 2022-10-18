@@ -100,8 +100,8 @@ module Jekyll
 
     
       # Should the JSON-LD output be generated for this page?
-      def json_ld?
-        return false unless json_ld
+      def show_json_ld?
+        return false unless show_json_ld
         return @json_ld if defined?(@json_ld)
       end
     

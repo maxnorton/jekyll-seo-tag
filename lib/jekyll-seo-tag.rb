@@ -42,7 +42,7 @@ module Jekyll
       {
         "version" => Jekyll::SeoTag::VERSION,
         "title"   => title?,
-        "json_ld" => json_ld?,
+        "show_json_ld" => show_json_ld?,
       }
     end
 
