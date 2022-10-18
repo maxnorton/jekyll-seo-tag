@@ -98,13 +98,14 @@ module Jekyll
         @author ||= AuthorDrop.new(:page => page, :site => site)
       end
 
-    
+=begin
       # Should the JSON-LD output be generated for this page?
       def show_json_ld?
         return false unless show_json_ld
         return @json_ld if defined?(@json_ld)
       end
-    
+=end 
+
       # A drop representing the JSON-LD output
       def json_ld
         @json_ld ||= JSONLDDrop.new(self)
