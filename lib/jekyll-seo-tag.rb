@@ -42,6 +42,7 @@ module Jekyll
       {
         "version" => Jekyll::SeoTag::VERSION,
         "title"   => title?,
+        "json_ld" => json_ld?,
       }
     end
 
