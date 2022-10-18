@@ -126,6 +126,8 @@
   <script type="application/ld+json">
     {{ seo_tag.json_ld | jsonify }}
   </script>
-{% endif %}
+{% else %}
+  <!-- Jekyll SEO tag LD+JSON output disabled by user -->
+{$ endif %}
 
 <!-- End Jekyll SEO tag -->
